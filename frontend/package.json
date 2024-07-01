@@ -1,0 +1,13 @@
+{
+  "name": "currency-prediction-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mithril": "^2.0.4",
+    "vite": "^3.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "start": "vite"
+  }
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+service CurrencyPredictionService {
+  rpc Predict (PredictRequest) returns (PredictResponse);
+}
+
+message PredictRequest {
+  float feature1 = 1;
+  float feature2 = 2;
+  float feature3 = 3;
+  // Add other features as needed
+}
+
+message PredictResponse {
+  float usd_brl = 1;
+  float usd_rub = 2;
+  float usd_inr = 3;
+  float usd_cny = 4;
+  float usd_zar = 5;
+  float usd_xau = 6;
+  float usd_oil = 7;
+}
